@@ -13,7 +13,7 @@ const User = require('./models/user');
 const Article = require('./models/article');
 
 const app = express();
-app.locals.companyName = 'OB';
+app.locals.companyName = 'ODB';
 
 app.set('view engine', 'ejs');
 const csrfProtection = csrf();
